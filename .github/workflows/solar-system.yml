@@ -112,4 +112,3 @@ jobs:
             kubeconfig: ${{ secrets.KUBECONFIG }}
 
         - run: kubectl version -o yaml
-        
